@@ -1,0 +1,27 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot using grammY with webhook and ngrok",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "dev:no-warn": "NODE_NO_WARNINGS=1 nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "grammy",
+    "ngrok"
+  ],
+  "author": "ivan deus",
+  "license": "MIT",
+  "dependencies": {
+    "@ngrok/ngrok": "^1.7.0",
+    "express": "^5.2.1",
+    "grammy": "^1.40.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
