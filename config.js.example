@@ -1,0 +1,15 @@
+// config.js
+module.exports = {
+    // Telegram Bot Token (get from @BotFather)
+    BOT_TOKEN: "YOUR_BOT_TOKEN_HERE",
+    
+    // Ngrok authentication token (get from https://dashboard.ngrok.com)
+    NGROK_AUTH_TOKEN: "YOUR_NGROK_AUTH_TOKEN_HERE",
+    
+    // Local server configuration
+    LOCAL_HOST: "127.0.0.1",
+    LOCAL_PORT: 7777,
+    
+    // Webhook path (must match the path in your bot)
+    WEBHOOK_PATH: "/webhook"
+};
