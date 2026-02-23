@@ -39,7 +39,7 @@ cp config.js.example config.js
 ```
 
 Edit `config.js` and add your tokens:
-```python
+```
 # Telegram Bot Token (get from @BotFather)
 BOT_TOKEN = "your_telegram_bot_token_here"
 
